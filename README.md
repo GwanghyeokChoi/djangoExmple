@@ -18,3 +18,9 @@ https://docs.djangoproject.com/ko/4.1/intro/tutorial01/
 
 ## 첫 번째 장고 앱 작성하기, part 2
 https://docs.djangoproject.com/ko/4.1/intro/tutorial02/
+
+# DB Migrations
+```
+python manage.py migrate
+python manage.py sqlmigrate {dirName} {fileName}
+```
